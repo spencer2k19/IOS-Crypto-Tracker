@@ -46,7 +46,7 @@ class CoinImageService {
             })
             .sink(receiveCompletion: NetworkingManager.handleData(completion:), receiveValue: {[weak self] (returnedImage) in
                 guard let self = self,
-                let downloadedImage = returnedImage
+                let downloadedImage = returnedImage 
                 else {return}
                 self.image = downloadedImage
                 self.imageSubscription?.cancel()
