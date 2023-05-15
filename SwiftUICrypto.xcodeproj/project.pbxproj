@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6CB8F9E2A1218520009E39F /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB8F9D2A1218520009E39F /* LocalFileManager.swift */; };
 		B6ED50F12A099C2100ACD1C4 /* SwiftUICryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ED50F02A099C2100ACD1C4 /* SwiftUICryptoApp.swift */; };
 		B6ED50F32A099C2100ACD1C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ED50F22A099C2100ACD1C4 /* ContentView.swift */; };
 		B6ED50F82A099C2300ACD1C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6ED50F72A099C2300ACD1C4 /* Preview Assets.xcassets */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B6CB8F9D2A1218520009E39F /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		B6ED50ED2A099C2100ACD1C4 /* SwiftUICrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6ED50F02A099C2100ACD1C4 /* SwiftUICryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICryptoApp.swift; sourceTree = "<group>"; };
 		B6ED50F22A099C2100ACD1C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				B6ED511E2A0AF29300ACD1C4 /* NetworkingManager.swift */,
+				B6CB8F9D2A1218520009E39F /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				B6ED51132A0A2DBF00ACD1C4 /* CoinRowView.swift in Sources */,
 				B6ED51192A0ACD5F00ACD1C4 /* HomeViewModel.swift in Sources */,
 				B6ED50F32A099C2100ACD1C4 /* ContentView.swift in Sources */,
+				B6CB8F9E2A1218520009E39F /* LocalFileManager.swift in Sources */,
 				B6ED51082A09A79400ACD1C4 /* HomeView.swift in Sources */,
 				B6ED51222A0AFD9E00ACD1C4 /* CoinImageView.swift in Sources */,
 				B6ED50F12A099C2100ACD1C4 /* SwiftUICryptoApp.swift in Sources */,
