@@ -18,6 +18,7 @@
 		B6AEA1C82A1C273A0056EADF /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AEA1C72A1C273A0056EADF /* HapticManager.swift */; };
 		B6C38DF82A268A4C00CC1617 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C38DF72A268A4C00CC1617 /* ChartView.swift */; };
 		B6C38DFA2A269EA400CC1617 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C38DF92A269EA400CC1617 /* Date.swift */; };
+		B6C38DFD2A29D7C500CC1617 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C38DFC2A29D7C500CC1617 /* String.swift */; };
 		B6CB8F9E2A1218520009E39F /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB8F9D2A1218520009E39F /* LocalFileManager.swift */; };
 		B6CB8FA02A122C4F0009E39F /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB8F9F2A122C4F0009E39F /* SearchBarView.swift */; };
 		B6CB8FA22A1231CF0009E39F /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB8FA12A1231CF0009E39F /* UIApplication.swift */; };
@@ -59,6 +60,8 @@
 		B6AEA1C72A1C273A0056EADF /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 		B6C38DF72A268A4C00CC1617 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		B6C38DF92A269EA400CC1617 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		B6C38DFB2A26A93300CC1617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B6C38DFC2A29D7C500CC1617 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		B6CB8F9D2A1218520009E39F /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		B6CB8F9F2A122C4F0009E39F /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		B6CB8FA12A1231CF0009E39F /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
@@ -145,6 +148,7 @@
 		B6ED50EF2A099C2100ACD1C4 /* SwiftUICrypto */ = {
 			isa = PBXGroup;
 			children = (
+				B6C38DFB2A26A93300CC1617 /* Info.plist */,
 				B6ED50F02A099C2100ACD1C4 /* SwiftUICryptoApp.swift */,
 				B6ED511D2A0AF27B00ACD1C4 /* Utilities */,
 				B6ED51002A09A0BB00ACD1C4 /* Extensions */,
@@ -174,6 +178,7 @@
 				B6ED51162A0A32F400ACD1C4 /* Double.swift */,
 				B6CB8FA12A1231CF0009E39F /* UIApplication.swift */,
 				B6C38DF92A269EA400CC1617 /* Date.swift */,
+				B6C38DFC2A29D7C500CC1617 /* String.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -378,6 +383,7 @@
 				B6AEA1BB2A14C3C70056EADF /* MarketDataService.swift in Sources */,
 				B6ED510E2A09AFC500ACD1C4 /* CircleButtonAnimationView.swift in Sources */,
 				B6ED51262A0B04B900ACD1C4 /* CoinImageViewModel.swift in Sources */,
+				B6C38DFD2A29D7C500CC1617 /* String.swift in Sources */,
 				B6ED51152A0A2E9600ACD1C4 /* PreviewProvider.swift in Sources */,
 				B6AEA1BD2A14DEE20056EADF /* PortfolioView.swift in Sources */,
 				B6ED51172A0A32F400ACD1C4 /* Double.swift in Sources */,
@@ -518,6 +524,7 @@
 				DEVELOPMENT_TEAM = 4S5N4DZ3T3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUICrypto/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Crypto Tracker";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -550,6 +557,7 @@
 				DEVELOPMENT_TEAM = 4S5N4DZ3T3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUICrypto/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Crypto Tracker";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
