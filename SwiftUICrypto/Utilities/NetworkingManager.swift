@@ -31,7 +31,6 @@ class NetworkingManager {
             .tryMap { (output) -> Data  in
                 try handleURLResponse(output: output, url: url)
             }
-            .receive(on: DispatchQueue.main)
             .eraseToAnyPublisher()
     }
     
